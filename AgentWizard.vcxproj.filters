@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{090ff4e3-2edc-4d61-ae73-08b11683852f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{95c2cb09-6e2e-4eb2-a74e-e6919ec0ad1c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{4524dd33-44f3-413c-884f-5ec0e30c0958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{368dcc1d-e4bb-4de3-915e-e788407c2946}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentSvc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\flog.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\J2KDecoder.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\J2KEncoder.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\log.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\memory_manager.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\safe_queue.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\simple_commander.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\simple_debug.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\simple_define.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\simple_winpatcher.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\socket_server.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sync_simple.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sys_info.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\threading.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\simple_caster.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\vis_l_k_decoder.lib" />
+    <Library Include="lib\vis_l_k_encoder.lib" />
+  </ItemGroup>
+</Project>

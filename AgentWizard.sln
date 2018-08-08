@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "AgentDnEx", "AgentDnEx\AgentDnEx.dsp", "{0ADE7B9C-962E-4303-A005-5C32D630588A}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "AgentWizard", "AgentWizard.dsp", "{7F81F5B0-FB8B-4522-933A-2A1E5AD5B0B3}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "CcmsApplySvc", "CcmsApplySvc\CcmsApplySvc.dsp", "{4ADAF371-3A14-471D-8B01-5A3ED8090D46}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "ManulSetupAgent", "ManulSetupAgent\ManulSetupAgent.dsp", "{8F3ECDC4-A085-4285-B805-9A7A22B865BC}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "autodown_installer", "autodown_installer\autodown_installer.dsp", "{94B58D1B-DEA4-4C67-8996-B252DC726B70}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "installer", "installer\installer.dsp", "{5BCD97F8-C9C1-44B0-8E30-FDBDDF632D32}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "testcode", "testcode\testcode.dsp", "{4D9F0941-C5E7-4B71-ADE5-AF8F6846190D}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+#ifndef __SIMPLE_DEBUG_H_INCLUDED__
+#define __SIMPLE_DEBUG_H_INCLUDED__
+
+//#define __SIMPLE_DEBUG__
+
+#endif // __SIMPLE_DEBUG_H_INCLUDED__
